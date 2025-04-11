@@ -23,8 +23,6 @@ Sistema Web simples para cadastro de clientes e endereços, com validação de l
 3. Clique com o botão direito no `index.html` e selecione **"Open with Live Server"**.
 4. O sistema será iniciado em um servidor local (`http://127.0.0.1:5500/...`).
 
-> ✅ Live Server é útil para evitar bloqueios de caminhos relativos em navegadores mais restritivos (como o Chrome em modo local).
-
 ## 📋 Funcionalidades
 
 - Cadastro de Cliente com validação de CPF e Usuário.

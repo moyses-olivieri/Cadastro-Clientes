@@ -20,11 +20,6 @@ SISTEMA DE CADASTRO - INSTRUÇÕES DE USO
 4. O navegador será aberto com a aplicação funcionando completamente.
 5. Todos os redirecionamentos e carregamentos de arquivos funcionarão corretamente, inclusive em subpastas.
 
- Vantagens do Live Server:
-- Suporte completo a rotas locais.
-- Evita erros de segurança (CORS) ao navegar entre arquivos.
-- Ideal para testes e desenvolvimento local.
-
 ==================================================
 Desenvolvido por: Moyses
 
