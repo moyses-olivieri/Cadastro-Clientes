@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/alasql"></script>
+  <script src="login.js" defer></script>
+  <link rel="stylesheet" href="../css/Login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+          <h1>Entrar</h1>
+    
+          <div class="input-group">
+            <input type="text" id="usuario" required>
+            <label for="usuario">Usuário</label>
+          </div>
+    
+          <div class="input-group">
+            <input type="password" id="senha" required>
+            <label for="senha">Senha</label>
+            <i class="fa fa-eye" aria-hidden="true"></i>
+          </div>
+    
+          <div class="justify-center">
+            <button onclick="login()">Entrar</button>
+          </div>
+    
+          <div class="justify-center">
+            <hr>
+          </div>
+    
+          <p>Não tem uma conta?
+            <a href='../html/Cliente.html'>Cadastre-se</a>
+          </p>
+    
+          <div class="justify-center">
+            <details>
+              <summary style="cursor: pointer; margin-top: 10px;">⚙ Configurações</summary>
+              <button onclick="exportarBanco()">Exportar banco pré-populado</button>
+              <button onclick="exportarBancoReal()">Exportar banco real</button>
+            </details>
+          </div>
+    
+          <p id="erroLogin" style="color: red; text-align: center; margin-top: 10px; display: none;">Usuário ou senha incorretos.</p>
+        </div>
+      </div>
+      <script src="../Js/Login.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+SISTEMA DE CADASTRO - INSTRUÇÕES DE USO
+
+
+ OPÇÃO 1 – RODAR LOCALMENTE (CLIQUE DUPLO)
+--------------------------------------------------
+1. Baixe todos os arquivos do projeto em uma pasta local.
+2. Dê **duplo clique em `index.html`** para abrir no navegador.
+3. Use o sistema de cadastro normalmente.
+4. Os dados são armazenados **localmente no navegador** com AlaSQL.
+
+ Observação:
+  - Algumas funcionalidades (como redirecionamentos entre arquivos HTML em subpastas) podem ser limitadas em alguns navegadores devido à política de segurança local (CORS).
+
+ OPÇÃO 2 – USAR LIVE SERVER (RECOMENDADO)
+--------------------------------------------------
+1. Instale o VS Code (caso não tenha).
+2. Instale a extensão "Live Server" no VS Code.
+3. Clique com o botão direito no `index.html` e escolha:
+    "Open with Live Server"
+4. O navegador será aberto com a aplicação funcionando completamente.
+5. Todos os redirecionamentos e carregamentos de arquivos funcionarão corretamente, inclusive em subpastas.
+
+ Vantagens do Live Server:
+- Suporte completo a rotas locais.
+- Evita erros de segurança (CORS) ao navegar entre arquivos.
+- Ideal para testes e desenvolvimento local.
+
+==================================================
+Desenvolvido por: Moyses
+

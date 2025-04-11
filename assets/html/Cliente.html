@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/alasql"></script>
+    <link rel="stylesheet" href="../css/Cliente.css">
+    <title>Cliente</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+          <h1>Cadastrar Clientes</h1>
+          
+          <div id="mensagem" class="mensagem"></div>
+    
+          <div class="input-group">
+            <input type="text" id="Nome" required>
+            <label for="Nome">Nome Completo</label>
+          </div>
+    
+          <div class="input-group">
+            <input type="text" id="Usuário" required>
+            <label for="Usuário">Usuário</label>
+          </div>
+    
+          <div class="input-group">
+            <input type="text" id="CPF" required>
+            <label for="CPF">CPF</label>
+          </div>
+    
+          <div class="input-group">
+            <input type="date" id="DataNascimento" required>
+            <label for="DataNascimento" style="top: -10px; font-size: 12px;">Data de Nascimento</label>
+          </div>
+    
+          <div class="input-group">
+            <input type="text" id="Telefone" required>
+            <label for="Telefone">Telefone</label>
+          </div>
+    
+          <div class="input-group">
+            <input type="text" id="Celular" required>
+            <label for="Celular">Celular</label>
+          </div>
+    
+          <div class="input-group">
+            <input type="password" id="Senha" required>
+            <label for="Senha">Senha</label>
+            <i class="fa fa-eye" aria-hidden="true"></i>
+          </div>
+    
+          <div class="input-group">
+            <input type="password" id="ConfirmSenha" required>
+            <label for="ConfirmSenha">Confirmar Senha</label>
+            <i class="fa fa-eye" aria-hidden="true"></i>
+          </div>
+    
+          <div class="justify-center">
+            <button onclick="Cadastrar()">Cadastrar</button>
+          </div>
+        </div>
+      </div>
+    
+      <script src="../Js/Cliente.js"></script>
+    
+</body>
+</html>

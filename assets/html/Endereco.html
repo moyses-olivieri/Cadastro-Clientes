@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/alasql"></script>
+    <link rel="stylesheet" href="../css/Endereco.css">
+    <title>Endereco</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="card">
+          <h1>Cadastro de Endereço</h1>
+    
+          <div id="mensagem" class="mensagem"></div>
+    
+          <div class="input-group">
+            <input type="text" id="CEP" required>
+            <label for="CEP">CEP</label>
+          </div>
+    
+          <div class="input-group">
+            <input type="text" id="Rua" required>
+            <label for="Rua">Rua</label>
+          </div>
+    
+          <div class="input-group">
+            <input type="text" id="Bairro" required>
+            <label for="Bairro">Bairro</label>
+          </div>
+    
+          <div class="input-group">
+            <input type="text" id="Cidade" required>
+            <label for="Cidade">Cidade</label>
+          </div>
+    
+          <div class="input-group">
+            <input type="text" id="Estado" required>
+            <label for="Estado">Estado</label>
+          </div>
+    
+          <div class="input-group">
+            <input type="text" id="Pais" required>
+            <label for="Pais">País</label>
+          </div>
+    
+          <div class="input-group">
+            <input type="text" id="IdCliente" required>
+            <label for="IdCliente">Identificador Cliente</label>
+          </div>
+    
+          <div class="justify-center">
+            <button onclick="CadastrarEndereco()">Cadastrar</button>
+          </div>
+        </div>
+      </div>
+
+
+    <script src="../Js/Endereco.js"></script>
+</body>
+</html>
